@@ -38,4 +38,4 @@ subtract(1,2);
 // });
 // console.log(triple);
 
-const triple = exampleArray.map((num)) => num * 3;
+const triple = exampleArray.map((num)) => { return num * 3 };
